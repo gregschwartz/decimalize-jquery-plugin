@@ -1,8 +1,8 @@
 {
 	"name": "decimalize",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"title": "Automatically add decimal to an INPUT field",
-	"description": "jQuery plugin to automatically add a decimal to an INPUT field. Allows typing 186 to get 1.86, or 1853 to get 185.3 Configured by adding an attribute decimaldigits='[number of digits to place after decimal]'",
+	"description": "jQuery plugin to automatically add a decimal to an INPUT field.  Configured by adding an attribute `decimaldigits='[number of digits to place after decimal]'` For example, you could type a weight in as 1853 to get 185.3",
 	"author": {
 		"name": "Greg Schwartz",
 		"email": "greg@gregschwartz.net",
@@ -16,5 +16,6 @@
 	],
 	"dependencies": {
 		"jquery": ">=1.0"
-	}
+	},
+	"docs": "https://github.com/gregschwartz/decimalize-jquery-plugin"
 }
