@@ -3,7 +3,7 @@ decimalize-jquery-plugin
 
 jQuery plugin to automatically add a decimal to an INPUT field. 
 
-For example, you could typ 186 to get 1.86, or 1853 to get 185.3 
+For example, if entering body weight, you could type `1853` to get `185.3`. Or if entering size in meters, you could type `186` to get `1.86`.
 
 **To use:**
 
