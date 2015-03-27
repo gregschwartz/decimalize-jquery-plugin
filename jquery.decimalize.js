@@ -1,7 +1,7 @@
 (function ( $ ) { //wrapper to be compatible with other JS libraries
   $.fn.decimalDigitify = function() {
     //on key up we will (possibly) change the value
-    this.keyup(function() {
+    this.on('change keypress paste input', function() {
       //get field's value and number of decimals from attributes
       var field = $(this);
       var num = field.val();
